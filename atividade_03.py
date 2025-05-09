@@ -6,8 +6,8 @@ def main():
 
     while True:
         print("\nMenu")
-        print("1.Cadastra banco / Tipo de conta: ")
-        print("2.Cadastra usuario: ")
+        print("1.Cadastrar banco / Tipo de conta: ")
+        print("2.Cadastrar usuario: ")
         print("3.Dados cadastrados: ")
         print("4.Sair do sistema! ")
 
@@ -24,7 +24,7 @@ def main():
                 idade = input("idade: ")
                 print ("Usuario cadastrado")
             else:
-                print("Usuario nao cadstrado")
+                print("Usuario nao cadastrado")
 
         elif opcao == "3":
             if nome:
@@ -33,11 +33,11 @@ def main():
                 print(f"\nBanco:{banco}")
                 print(f"Conta:{conta}")
             else:
-                print("Usuario nao cadstrado")
+                print("Usuario nao cadastrado")
 
 
         elif opcao == "4":
-            print("Ecerrando o sistema...")
+            print("Encerrando o sistema...")
             break
 
         else:
